@@ -2270,12 +2270,23 @@ export default function App() {
             </div>
 
             {/* Bangla Support Tips for perfect background removal */}
-            <div className="bg-amber-50/70 border border-amber-200/60 p-3.5 rounded-2xl text-left flex gap-3 items-start shadow-sm max-w-xl mx-auto font-sans">
+            <div className="bg-amber-50/70 border border-amber-200/60 p-3.5 rounded-2xl text-left flex gap-3 items-start shadow-sm max-w-xl mx-auto font-sans animate-fade-in">
               <Sparkles className="w-5 h-5 text-amber-500 shrink-0 mt-0.5 animate-pulse" />
               <div className="space-y-1">
                 <span className="text-xs font-bold text-amber-900 block font-sans">ছবি নিখুঁতভাবে ব্যাকগ্রাউন্ড কাটের সিক্রেট টিপস 💡</span>
                 <p className="text-[11px] text-amber-800/90 leading-relaxed font-semibold">
                   যদি কোনো ছবির ব্যাকগ্রাউন্ডে অতিরিক্ত অংশ বা কুয়াশা থেকে যায়, তবে অবশ্যই উপরে পাশে থাকা <span className="font-extrabold text-amber-950">"HD Quality (Slow)"</span> সিলেক্ট করে ছবি আবার আপলোড করুন। এটি অত্যন্ত নিখুঁত এআই (AI) মডেল দিয়ে কাটআউট প্রসেস করে। এছাড়াও ছবি সিলেক্ট করার পর ডানদিকের কন্ট্রোল প্যানেলের <span className="font-extrabold text-amber-950 font-sans">"Edge Cleansing & Halos"</span> সেকশনের পরিমাপগুলো বাড়িয়ে যেকোনো অবশিষ্টাংশ অনায়াসে মুছে দিতে পারেন!
+                </p>
+              </div>
+            </div>
+
+            {/* Unlimited Client-Side Reassurance Box */}
+            <div className="bg-emerald-50/80 border border-emerald-200/70 p-3.5 rounded-2xl text-left flex gap-3 items-start shadow-sm max-w-xl mx-auto font-sans animate-fade-in">
+              <Shield className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+              <div className="space-y-1">
+                <span className="text-xs font-bold text-emerald-950 block font-sans">সীমাহীন ও সম্পূর্ণ ফ্রি ইমেজ প্রসেসিং (100% Free & Unlimited) 🛡️</span>
+                <p className="text-[11px] text-emerald-800/95 leading-relaxed font-semibold">
+                  এই অ্যাপটি সম্পূর্ণ <span className="font-extrabold text-emerald-955 bg-white/60 px-1 rounded">অফলাইন-ফার্স্ট ব্রাউজার প্রযুক্তিতে</span> চলে। ব্যাকগ্রাউন্ড কাটতে কোনো পেইড ক্লাউড এপিআই বা এক্সটার্নাল সার্ভার ব্যবহার করা হয় না। ইমেজ প্রসেসিং সব ইউজারের নিজের মোবাইলের ব্রাউজার এআই (Client-Side WASM/ONNX) দ্বারা সম্পন্ন হয়। তাই কোটি কোটি ইউজার ব্যবহার করলেও <span className="font-extrabold text-emerald-950">আপনার কোনো এপিআই লিমিট শেষ হবে না এবং ১ পয়সাও অতিরিক্ত বিল আসবে না!</span>
                 </p>
               </div>
             </div>
