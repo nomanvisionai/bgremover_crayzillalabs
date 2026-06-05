@@ -1,0 +1,6 @@
+{
+  "name": "Background Remover Studio",
+  "description": "Your private, fully customizable offline background remover workspace that executes matte segmentation directly in the browser with active branding settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
